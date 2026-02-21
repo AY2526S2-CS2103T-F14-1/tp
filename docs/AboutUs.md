@@ -11,7 +11,7 @@ You can reach us at the email `ay2526s2-cs2103t-f14-1@nusu.onmicrosoft.com`
 
 ## Project team
 
-### Chen Wai
+### Chen Ka Wai
 
 <img src="https://github.com/Ch3ngK.png" width="200px">
 
