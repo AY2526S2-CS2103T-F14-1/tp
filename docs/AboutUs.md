@@ -7,55 +7,56 @@
 
 We are a team based in the [School of Computing, National University of Singapore](http://www.comp.nus.edu.sg).
 
-You can reach us at the email `seer[at]comp.nus.edu.sg`
+You can reach us at the email `ay2526s2-cs2103t-f14-1@nusu.onmicrosoft.com`
 
 ## Project team
 
-### John Doe
+### Chen Wai
 
-<img src="images/johndoe.png" width="200px">
+<img src="https://github.com/Ch3ngK.png" width="200px">
 
-[[homepage](http://www.comp.nus.edu.sg/~damithch)]
-[[github](https://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
-
-* Role: Project Advisor
-
-### Jane Doe
-
-<img src="images/johndoe.png" width="200px">
-
-[[github](http://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
-
-* Role: Team Lead
-* Responsibilities: UI
-
-### Johnny Doe
-
-<img src="images/johndoe.png" width="200px">
-
-[[github](http://github.com/johndoe)] [[portfolio](team/johndoe.md)]
+[[github](https://github.com/Ch3ngK)]
+[[portfolio](team/Ch3ngK.md)]
 
 * Role: Developer
-* Responsibilities: Data
+* Responsibilities: Developer
 
-### Jean Doe
+### Ong Russell
 
-<img src="images/johndoe.png" width="200px">
+<img src="https://github.com/ongrussell.png" width="200px">
 
-[[github](http://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
-
-* Role: Developer
-* Responsibilities: Dev Ops + Threading
-
-### James Doe
-
-<img src="images/johndoe.png" width="200px">
-
-[[github](http://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
+[[github](https://github.com/ongrussell)]
+[[portfolio](team/ongrussell.md)]
 
 * Role: Developer
-* Responsibilities: UI
+* Responsibilities: Developer
+
+### Ryan Wen
+
+<img src="https://github.com/Sinnez1.png" width="200px">
+
+[[github](https://github.com/Sinnez1)]
+[[portfolio](team/Sinnez1.md)]
+
+* Role: Developer
+* Responsibilities: Developer
+
+### Wesley Pribadi
+
+<img src="https://github.com/wesley-pribadi.png" width="200px">
+
+[[github](https://github.com/wesley-pribadi)]
+[[portfolio](team/wesley-pribadi.md)]
+
+* Role: Developer
+* Responsibilities: Developer
+
+### Wong Lucas
+
+<img src="https://github.com/Coding4NUS.png" width="200px">
+
+[[github](https://github.com/Coding4NUS)]
+[[portfolio](team/Coding4NUS.md)]
+
+* Role: Developer
+* Responsibilities: Developer
