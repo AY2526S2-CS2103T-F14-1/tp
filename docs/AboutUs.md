@@ -58,5 +58,5 @@ You can reach us at the email `ay2526s2-cs2103t-f14-1@nusu.onmicrosoft.com`
 [[github](https://github.com/Coding4NUS)]
 [[portfolio](team/Coding4NUS.md)]
 
-* Role: Developer
-* Responsibilities: Testing
+* Role: Testing
+* Responsibilities: Ensures the testing of the project is done properly and on time.
