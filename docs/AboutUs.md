@@ -38,8 +38,8 @@ You can reach us at the email `ay2526s2-cs2103t-f14-1@nusu.onmicrosoft.com`
 [[github](https://github.com/Sinnez1)]
 [[portfolio](team/Sinnez1.md)]
 
-* Role: Developer
-* Responsibilities: Developer & Ensuring good code quality
+* Role: Ensuring Code Quality
+* Responsibilities: Looks after code quality, ensures adherence to coding standards
 
 ### Wesley Pribadi
 
