@@ -300,16 +300,41 @@ Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unli
 
 ### Use cases
 
-(For all use cases below, the **System** is the `AddressBook` and the **Actor** is the `user`, unless specified otherwise)
+(For all use cases below, the **System** is the `Teacher Assistant's Assistant (TAA)` and the **Actor** is the `Teaching Assistant (TA)`, unless specified otherwise)
 
-**Use case: Delete a person**
+**Use case: Switch to a class space**
 
 **MSS**
 
-1.  User requests to list persons
-2.  AddressBook shows a list of persons
-3.  User requests to delete a specific person in the list
-4.  AddressBook deletes the person
+1.  User requests to switch to a class space.
+2.  AddressBook switches the active class space and shows a confirmation message.
+
+    Use case ends.
+
+**Extensions**
+
+* 1a. The class space identifier is missing or invalid.
+
+    * 1a1. AddressBook shows an error message.
+
+      Use case ends.
+
+* 2a. The specified class space does not exist.
+
+    * 2a1. AddressBook shows an error message.
+
+      Use case ends.
+
+---
+
+**Use case: Record class participation**
+
+**MSS**
+
+1.  User requests to list persons in the active class space.
+2.  AddressBook shows a list of persons.
+3.  User requests to record participation for a specific person on a specified date.
+4.  AddressBook records the participation and shows a confirmation message.
 
     Use case ends.
 
@@ -325,7 +350,54 @@ Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unli
 
       Use case resumes at step 2.
 
-*{More to be added}*
+* 3b. The given date is invalid.
+
+    * 3b1. AddressBook shows an error message.
+
+      Use case resumes at step 2.
+
+* 4a. A participation record already exists for that person on that date.
+
+    * 4a1. AddressBook shows a message indicating no change was made.
+
+      Use case ends.
+
+---
+
+**Use case: Record assignment submission**
+
+**MSS**
+
+1.  User requests to list persons in the active class space.
+2.  AddressBook shows a list of persons.
+3.  User requests to record an assignment submission for a specific person.
+4.  AddressBook records the submission and shows a confirmation message.
+
+    Use case ends.
+
+**Extensions**
+
+* 2a. The list is empty.
+
+  Use case ends.
+
+* 3a. The given index is invalid.
+
+    * 3a1. AddressBook shows an error message.
+
+      Use case resumes at step 2.
+
+* 3b. The given assignment details are invalid (e.g., missing assignment name or status).
+
+    * 3b1. AddressBook shows an error message.
+
+      Use case resumes at step 2.
+
+* 4a. A submission record already exists for that assignment for that person.
+
+    * 4a1. AddressBook shows a message indicating no change was made.
+
+      Use case ends.
 
 ### Non-Functional Requirements
 
