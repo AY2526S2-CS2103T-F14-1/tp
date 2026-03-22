@@ -105,7 +105,6 @@
     },
     {
       "src": "UserGuide.md",
-      "title": "User Guide",
       "headings": {
         "taa-user-guide": "TAA User Guide",
         "quick-start": "Quick start",
