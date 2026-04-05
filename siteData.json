@@ -133,7 +133,6 @@
         "edit-a-session-date-editsession": "Edit a session date : editsession",
         "delete-a-session-deletesession": "Delete a session : deletesession",
         "export-the-current-view-exportview": "Export the current view : exportview",
-        "undo-the-last-session-change-undosession": "Undo the last session change : undosession",
         "create-assignment-createassignment": "Create assignment : createassignment",
         "edit-assignment-editassignment": "Edit assignment : editassignment",
         "deleting-an-assignment-deleteassignment": "Deleting an assignment : deleteassignment",
