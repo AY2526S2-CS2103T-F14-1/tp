@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="generator" content="MarkBind 6.3.1">
-    <meta name="viewport" content="width=device-width, initial-scale=1"><title>Teacher Assistant's Assistant - About Us - AddressBook Level-3</title> <link rel="stylesheet" href="/tp/markbind/css/bootstrap.min.css"> <link rel="stylesheet" href="/tp/markbind/fontawesome/css/all.min.css"> <link rel="stylesheet" href="/tp/markbind/glyphicons/css/bootstrap-glyphicons.min.css"><link rel="stylesheet" href="/tp/markbind/css/codeblock-light.min.css"><link rel="stylesheet" href="/tp/markbind/css/markbind.min.css"><link rel="stylesheet" href="/tp/plugins/markbind-plugin-anchors/markbind-plugin-anchors.css"><link rel="stylesheet" href="/tp/plugins/markbind-plugin-tree/markbind-plugin-tree.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1"><title>Teacher Assistant's Assistant - About Us - AddressBook Level-3</title> <link rel="stylesheet" href="/tp/markbind/css/bootstrap.min.css"> <link rel="stylesheet" href="/tp/markbind/fontawesome/css/all.min.css"> <link rel="stylesheet" href="/tp/markbind/glyphicons/css/bootstrap-glyphicons.min.css"><link rel="stylesheet" href="/tp/markbind/css/codeblock-light.min.css"><link rel="stylesheet" href="/tp/markbind/css/markbind.min.css"><link rel="stylesheet" href="/tp/plugins/codeBlockCopyButtons/codeBlockButtons.css"><link rel="stylesheet" href="/tp/plugins/markbind-plugin-anchors/markbind-plugin-anchors.css"><link rel="stylesheet" href="/tp/plugins/markbind-plugin-tree/markbind-plugin-tree.css">
     
   <link rel="stylesheet" href="/tp/stylesheets/main.css">
 <link rel="icon" href="/tp/images/SeEduLogo.png"></head>
@@ -18,7 +18,7 @@
 Integration: In charge of versioning of the code, maintaining the code repository, integrating various parts of the software to create a whole.</li></ul> <h3 id="ryan-ang-jun-wen">Ryan Ang Jun Wen<a class="fa fa-anchor" href="#ryan-ang-jun-wen" onclick="event.stopPropagation()"></a></h3> <img src="/tp/images/sinnez1.png" width="200px"> <p>[<a href="https://github.com/Sinnez1">github</a>]
 [<a href="/tp/team/Sinnez1.html">portfolio</a>]</p> <ul><li>Role: Ensuring Code Quality</li> <li>Responsibilities: Looks after code quality, ensures adherence to coding standards</li></ul> <h3 id="wesley-pribadi">Wesley Pribadi<a class="fa fa-anchor" href="#wesley-pribadi" onclick="event.stopPropagation()"></a></h3> <img src="/tp/images/wesley-pribadi.png" width="200px"> <p>[<a href="https://github.com/wesley-pribadi">github</a>]
 [<a href="/tp/team/wesley-pribadi.html">portfolio</a>]</p> <ul><li>Role: Scheduling and Tracking</li> <li>Responsibilities: In charge of defining, assigning, and tracking project tasks.</li></ul> <h3 id="wong-paul-jin-lucas">Wong Paul-Jin Lucas<a class="fa fa-anchor" href="#wong-paul-jin-lucas" onclick="event.stopPropagation()"></a></h3> <img src="/tp/images/coding4nus.png" width="200px"> <p>[<a href="https://github.com/Coding4NUS">github</a>]
-[<a href="/tp/team/Coding4NUS.html">portfolio</a>]</p> <ul><li>Role: Testing</li> <li>Responsibilities: Ensures the testing of the project is done properly and on time.</li></ul></div> <nav id="page-nav" data-v-6b1b63d2><!--[--><div class="nav-component slim-scroll"></div><!--]--><!--v-if--></nav> <div class="scroll-top-button fa-lg d-print-none" style="display:none;bottom:2%;right:2%;position:fixed;" aria-hidden="true"><!--[--><i class="fas fa-arrow-circle-up"></i><!--]--></div></div> <footer><div class="text-center"><small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 6.3.1</a>, generated on Mon, 6 Apr 2026, 23:07:12 GMT+8]</small></div></footer><!--]--></div>
+[<a href="/tp/team/Coding4NUS.html">portfolio</a>]</p> <ul><li>Role: Testing</li> <li>Responsibilities: Ensures the testing of the project is done properly and on time.</li></ul></div> <nav id="page-nav" data-v-6b1b63d2><!--[--><div class="nav-component slim-scroll"></div><!--]--><!--v-if--></nav> <div class="scroll-top-button fa-lg d-print-none" style="display:none;bottom:2%;right:2%;position:fixed;" aria-hidden="true"><!--[--><i class="fas fa-arrow-circle-up"></i><!--]--></div></div> <footer><div class="text-center"><small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 6.3.1</a>, generated on Mon, 6 Apr 2026, 23:13:10 GMT+8]</small></div></footer><!--]--></div>
 </body><script src="/tp/markbind/js/bootstrap-utility.min.js"></script>
 <script src="/tp/markbind/js/polyfill.min.js"></script>
 <script src="/tp/markbind/js/vue.global.prod.min.js"></script>
@@ -27,4 +27,51 @@ Integration: In charge of versioning of the code, maintaining the code repositor
 <script>
   MarkBind.setupWithSearch()
 </script>
+    <script>
+    function copyCodeBlock(element) {
+        const pre = element.parentElement.parentElement;
+        const codeElement = pre.querySelector('code');
+        const copyButtonBody = element.querySelector('.function-btn-body');
+        const tooltipText = element.querySelector(".tooltiptext");
+
+        // create dummy text element to select() the text field
+        const textElement = document.createElement('textarea');
+        textElement.value = codeElement.textContent;
+        document.body.appendChild(textElement);
+        textElement.select();
+
+        document.execCommand('copy');
+        document.body.removeChild(textElement);
+        copyButtonBody.innerHTML = `
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="18"
+    height="18"
+    viewBox="2 2 22 22"
+  >
+    <path d="M 19.28125 5.28125 L 9 15.5625 L 4.71875 11.28125 L 3.28125 12.71875 L 8.28125 17.71875 
+    L 9 18.40625 L 9.71875 17.71875 L 20.71875 6.71875 Z"></path>
+  </svg>
+`;
+        console.log("Running tooltip");
+        tooltipText.innerText  = `Copied!`;
+        setTimeout(() => {
+            copyButtonBody.innerHTML = `
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "/>
+    </g>
+</svg>
+`;
+            tooltipText.innerText  = `Copy`;
+        }, 3000);
+    }
+    </script>
 </html>
