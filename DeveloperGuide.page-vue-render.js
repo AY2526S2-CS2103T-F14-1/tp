@@ -944,6 +944,6 @@ with(this){return _c('h2',{attrs:{"id":"appendix-planned-enhancements"}},[_v("Ap
 with(this){return _c('ol',[_c('li',[_v("Improve session and assignment grade error reporting during save file loading: Currently, when a manually edited contact has multiple invalid session or assignment grade fields, only the first error among them is reported, requiring multiple fix-and-relaunch cycles to fully correct the entry. We plan to accumulate and report all such errors together in a single warning message, consistent with how basic field errors (name, phone, email, matric number, tags) are already reported together.")])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.1.0")]),_v(", generated on Tue, 14 Apr 2026, 12:10:45 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.1.0")]),_v(", generated on Tue, 14 Apr 2026, 12:17:43 GMT+8]")])])])}
 }];
   
