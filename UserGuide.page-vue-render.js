@@ -305,7 +305,7 @@ with(this){return _c('h3',{attrs:{"id":"listing-student-contact-details-list"}},
 with(this){return _c('p',[_v("Format: "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("list")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("list")]),_v(" when "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("current group: T01")]),_v(" shows a list of all the students in group "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("T01")]),_v(".")]),_v(" "),_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("list")]),_v(" when "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("current group: All Students")]),_v(" shows a list of all the students in TAA.")])])}
+with(this){return _c('ul',[_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("list")]),_v(" when "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Current Group: T01")]),_v(" shows a list of all the students in group "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("T01")]),_v(".")]),_v(" "),_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("list")]),_v(" when "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Current Group: No Group Selected")]),_v(" shows a list of all the students in TAA.")])])}
 },function anonymous(
 ) {
 with(this){return _c('h3',{attrs:{"id":"editing-a-student-edit"}},[_v("Editing a student: "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("edit")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#editing-a-student-edit","onclick":"event.stopPropagation()"}})])}
@@ -644,6 +644,6 @@ with(this){return _c('div',{staticClass:"table-responsive"},[_c('table',{staticC
 with(this){return _c('h2',{attrs:{"id":"frequently-asked-questions-faqs"}},[_v("Frequently Asked Questions (FAQs)"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#frequently-asked-questions-faqs","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.1.0")]),_v(", generated on Tue, 14 Apr 2026, 15:42:37 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.1.0")]),_v(", generated on Tue, 14 Apr 2026, 17:48:45 GMT+8]")])])])}
 }];
   
